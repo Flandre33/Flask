@@ -1,0 +1,46 @@
+2019-10-07 22:22:07,017 -: Slow query:SELECT user.uid AS user_uid, user.username AS user_username, user._password AS user__password, user.email AS user_email, user.is_super AS user_is_super, user.role_id AS user_role_id, user.reg_time AS user_reg_time 
+FROM user 
+WHERE user.uid = %(param_1)s
+2019-10-07 22:22:07,017 -: 0.08582462700000093
+2019-10-07 22:22:07,022 -: 127.0.0.1 - - [07/Oct/2019 22:22:07] "[1m[35mGET /admin/login/ HTTP/1.1[0m" 500 -
+2019-10-07 22:22:07,239 -: 127.0.0.1 - - [07/Oct/2019 22:22:07] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-10-07 22:22:07,240 -: 127.0.0.1 - - [07/Oct/2019 22:22:07] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-10-07 22:22:07,242 -: 127.0.0.1 - - [07/Oct/2019 22:22:07] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-10-07 22:22:07,317 -: 127.0.0.1 - - [07/Oct/2019 22:22:07] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-10-07 22:22:07,321 -: 127.0.0.1 - - [07/Oct/2019 22:22:07] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-10-07 22:22:29,098 -:  * Detected change in 'D:\\PY\\Flask\\15-CMSœµÕ≥–‘ƒ‹≤‚ ‘”Îµ•‘™≤‚ ‘\\apps\\admin\\views.py', reloading
+2019-10-07 22:22:45,624 -: Slow query:SELECT user.uid AS user_uid, user.username AS user_username, user._password AS user__password, user.email AS user_email, user.is_super AS user_is_super, user.role_id AS user_role_id, user.reg_time AS user_reg_time 
+FROM user 
+WHERE user.uid = %(param_1)s
+2019-10-07 22:22:45,624 -: 0.0009666109999999506
+2019-10-07 22:22:45,630 -: 127.0.0.1 - - [07/Oct/2019 22:22:45] "[1m[35mGET /admin/login/ HTTP/1.1[0m" 500 -
+2019-10-07 22:22:45,648 -: 127.0.0.1 - - [07/Oct/2019 22:22:45] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-10-07 22:22:45,649 -: 127.0.0.1 - - [07/Oct/2019 22:22:45] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-10-07 22:22:45,650 -: 127.0.0.1 - - [07/Oct/2019 22:22:45] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-10-07 22:22:45,724 -: 127.0.0.1 - - [07/Oct/2019 22:22:45] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-10-07 22:22:45,728 -: 127.0.0.1 - - [07/Oct/2019 22:22:45] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-10-07 22:22:45,750 -: 127.0.0.1 - - [07/Oct/2019 22:22:45] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-10-07 22:30:12,768 -:  * Detected change in 'D:\\PY\\Flask\\15-CMSœµÕ≥–‘ƒ‹≤‚ ‘”Îµ•‘™≤‚ ‘\\apps\\admin\\views.py', reloading
+2019-10-07 22:31:40,844 -: Slow query:SELECT user.uid AS user_uid, user.username AS user_username, user._password AS user__password, user.email AS user_email, user.is_super AS user_is_super, user.role_id AS user_role_id, user.reg_time AS user_reg_time 
+FROM user 
+WHERE user.uid = %(param_1)s
+2019-10-07 22:31:40,844 -: 0.0012274180000000356
+2019-10-07 22:31:40,849 -: 127.0.0.1 - - [07/Oct/2019 22:31:40] "[1m[35mGET /admin/login/ HTTP/1.1[0m" 500 -
+2019-10-07 22:31:40,864 -: 127.0.0.1 - - [07/Oct/2019 22:31:40] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-10-07 22:31:40,865 -: 127.0.0.1 - - [07/Oct/2019 22:31:40] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-10-07 22:31:40,867 -: 127.0.0.1 - - [07/Oct/2019 22:31:40] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-10-07 22:31:40,939 -: 127.0.0.1 - - [07/Oct/2019 22:31:40] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-10-07 22:31:40,943 -: 127.0.0.1 - - [07/Oct/2019 22:31:40] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-10-07 22:31:40,964 -: 127.0.0.1 - - [07/Oct/2019 22:31:40] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-10-07 22:31:42,916 -: Slow query:SELECT user.uid AS user_uid, user.username AS user_username, user._password AS user__password, user.email AS user_email, user.is_super AS user_is_super, user.role_id AS user_role_id, user.reg_time AS user_reg_time 
+FROM user 
+WHERE user.uid = %(param_1)s
+2019-10-07 22:31:42,916 -: 0.001498742999999969
+2019-10-07 22:31:42,921 -: 127.0.0.1 - - [07/Oct/2019 22:31:42] "[1m[35mGET /admin/login/ HTTP/1.1[0m" 500 -
+2019-10-07 22:31:42,938 -: 127.0.0.1 - - [07/Oct/2019 22:31:42] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-10-07 22:31:42,940 -: 127.0.0.1 - - [07/Oct/2019 22:31:42] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-10-07 22:31:42,941 -: 127.0.0.1 - - [07/Oct/2019 22:31:42] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-10-07 22:31:43,007 -: 127.0.0.1 - - [07/Oct/2019 22:31:43] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-10-07 22:31:43,010 -: 127.0.0.1 - - [07/Oct/2019 22:31:43] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-10-07 22:31:43,029 -: 127.0.0.1 - - [07/Oct/2019 22:31:43] "[37mGET /admin/login/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-10-07 22:32:05,683 -:  * Detected change in 'D:\\PY\\Flask\\15-CMSœµÕ≥–‘ƒ‹≤‚ ‘”Îµ•‘™≤‚ ‘\\apps\\front\\views.py', reloading

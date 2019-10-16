@@ -1,0 +1,18 @@
+[2019-10-07 22:33:32,742] {D:\PY\Flask\15-CMS系统性能测试与单元测试\apps\front\views.py:216} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT user.uid AS user_uid, user.username AS user_username, user._password AS user__password, user.email AS user_email, user.is_super AS user_is_super, user.role_id AS user_role_id, user.reg_time AS user_reg_time 
+FROM user 
+WHERE user.uid = %(param_1)s
+Parameters: {'param_1': 2}
+START_TIME: 0.952057074
+Duration: 0.0009669110000000147
+
+[2019-10-07 22:34:29,393] {D:\PY\Flask\15-CMS系统性能测试与单元测试\apps\front\views.py:216} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT user.uid AS user_uid, user.username AS user_username, user._password AS user__password, user.email AS user_email, user.is_super AS user_is_super, user.role_id AS user_role_id, user.reg_time AS user_reg_time 
+FROM user 
+WHERE user.uid = %(param_1)s
+Parameters: {'param_1': 2}
+START_TIME: 8.034136949
+Duration: 0.0009146289999986124
+

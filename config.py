@@ -1,0 +1,16 @@
+import os
+
+
+DEBUG = True
+DB_USERNAME = 'root'
+DB_PASSWORD = 'ldcrs1123'
+DB_HOST = '127.0.0.1'
+DB_PORT = '3306'
+DB_NAME = 'CMS'
+DB_URI = 'mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8' % (DB_USERNAME,DB_PASSWORD,DB_HOST,DB_PORT,DB_NAME)
+SQLALCHEMY_DATABASE_URI = DB_URI 
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+ADMIN_USER_ID = 'HEBOANHEHE'
+MEMBER_USER_ID = 'MEMBERREGISTER'
+SECRET_KEY = '123456'
+UEDITOR_UPLOAD_PATH = os.path.join(os.path.dirname(__file__), 'static', 'images')
